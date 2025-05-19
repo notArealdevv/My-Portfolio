@@ -1,3 +1,4 @@
+<<<<<<< HEAD
     body {
       margin: 0;
       font-family: Arial, sans-serif;
@@ -91,4 +92,105 @@
 
   .dark-mode #toggle-theme {
     background-color: #444;
+=======
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .intro {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    #projects {
+      margin-top: 600px; /* Pushes the section below the intro */
+      padding: 40px;
+      background-color: #f0f0f0;
+    }
+    
+    .project {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .project2 {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+
+  .intro, #projects, .project, .project2 {
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .dark-mode .intro,
+  .dark-mode #projects,
+  .dark-mode .project,
+  .dark-mode .project2 {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+  }
+
+  .dark-mode .project {
+    background-color: #2c2c2c;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.05);
+  }
+  
+  .dark-mode .project2 {
+    background-color: #2c2c2c;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.05);
+  }
+
+  a {
+    color: #0077cc;
+  }
+
+  .dark-mode a {
+    color: #66ccff;
+  }
+
+  #toggle-theme {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px 15px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .dark-mode #toggle-theme {
+    background-color: #444;
+>>>>>>> ddc62e2 (Add main.py)
   }
